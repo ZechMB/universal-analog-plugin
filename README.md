@@ -1,11 +1,13 @@
+a fork to include a soup update that adds untested support for keychron he keyboards: k4, k6, k10, q6, & q6 8k
+
 # Universal Analog Plugin
 
 A plugin for the [Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk) that makes it support a wider range of keyboards.
 
 ## Setup
 
-1. Download the latest `Windows.zip` from [the releases page](https://github.com/calamity-inc/universal-analog-plugin/releases)
-2. Navigate to `C:\Program Files\WootingAnalogPlugins` in your File Explorer
+1. Download the latest `Windows.zip` from [the releases page](https://github.com/ZechMB/universal-analog-plugin/releases)
+2. Navigate to `C:\Program Files\WootingAnalogPlugins` in your File Explorer (create the folder if it's not present)
 3. Move the `universal-analog-plugin` folder from within the zip file into the `WootingAnalogPlugins` folder
 
 If you did everything correctly, the file structure should look like this:
@@ -35,11 +37,16 @@ WootingAnalogPlugins/
 - Madlions MAD68HE<sup>P</sup>
 - Madlions MAD68R<sup>P</sup>
 
-If your keyboard is not mentioned here, take a look at [The List](https://github.com/calamity-inc/universal-analog-plugin/issues/1) for everything that's on my radar. If your keyboard is not on my radar, please let me know!
+untested keychron:
+-k4 he
+-k6 he
+-k10 he
+-q6 he
+-q6 he 8k
 
-Wooting devices are also supported, but only with the `universal-analog-plugin-with-wooting-device-support`, in which case it acts as a replacement for the wooting-analog-plugin.
+Untested keyboards may have incorrect keys; especially around the bottom row, the home section, and the top right oem keys.
 
-Note that the actual logic for interacting with the devices is in [soup::AnalogueKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp).
+Note that the actual logic for interacting with the devices is in [soup::AnalogueKeyboard](https://github.com/ZechMB/Soup/blob/senpai/soup/AnalogueKeyboard.cpp).
 
 ---
 
@@ -49,4 +56,3 @@ Note that the actual logic for interacting with the devices is in [soup::Analogu
 
 <sup>F</sup> [Custom firmware with full analog report functionality is available](https://analogsense.org/firmware/).
 
-<!-- <sup>U</sup> I don't own this keyboard, so I've not had a chance to test it, but it should work. -->
