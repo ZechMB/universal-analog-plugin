@@ -38,11 +38,11 @@ WootingAnalogPlugins/
 - Madlions MAD68R<sup>P</sup>
 
 untested keychron:
--k4 he
--k6 he
--k10 he
--q6 he
--q6 he 8k
+- k4 he
+- k6 he
+- k10 he
+- q6 he
+- q6 he 8k
 
 Untested keyboards may have incorrect keys; especially around the bottom row, the home section, and the top right oem keys.
 
